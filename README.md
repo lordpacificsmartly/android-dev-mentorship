@@ -2,7 +2,7 @@
 
 Welcome. This repo is the home base for our mentorship. 
 We keep it simple: short lessons, exercises, and branches for each topic. 
-We’re kicking off with Kotlin and Git, but more tracks (like coroutines, Android, etc.) will land here soon.
+We’re kicking off with Kotlin and Git, but more topics (like coroutines, Android, etc.) will land here soon.
 
 Everything lives on **branches**. Pick a branch for the track you want.
 
@@ -44,18 +44,18 @@ Rule #1: keep main clean.
 Do your work on the branch for that track — or spin off a feature branch from it.
 
 ### Example flow for a Kotlin assignment:
-git checkout kotlin-basics
-git pull
-git checkout -b feat/module2-assignment
-# ...make changes...
-git add .
-git commit -m "feat: complete module 2 assignments"
-git push -u origin feat/module2-assignment
-Then open a pull request back to kotlin-basics.
+- git checkout kotlin-basics
+- git pull
+- git checkout -b feat/module2-assignment
+#### ...make changes...
+- git add .
+- git commit -m "feat: complete module 2 assignments"
+- git push -u origin feat/module2-assignment
+- Then open a pull request back to kotlin-basics.
 
 - **Commit messages can be simple:** 
-  feat: → new lesson or solution
-  fix: → patch or bug fix
-  docs: → updates to notes, readmes, or docs
+  - feat: → new lesson or solution
+  - fix: → patch or bug fix
+  - docs: → updates to notes, readmes, or docs
 
 That’s all you need.
