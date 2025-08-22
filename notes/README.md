@@ -5,7 +5,7 @@ This branch (`git-lecture-notes`) contains detailed notes and exercises to help 
 
 ---
 
-## 📂 Where to Find the Notes
+## Where to Find the Notes
 All lecture notes are in [`git-and-github-mastery.md`](./git-and-github-mastery.md) inside this `notes/` folder.
 
 ---
@@ -70,7 +70,7 @@ By the end of these notes, you should be comfortable with:
 
 ---
 
-## Mentorship Note
+## Note
 
 This branch is for your **practice and learning**.
 Don’t be afraid to make mistakes here — Git is all about experimenting and then fixing or rolling back changes.
