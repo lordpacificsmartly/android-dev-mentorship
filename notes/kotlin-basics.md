@@ -141,7 +141,7 @@ Programs decide and repeat actions. Conditionals control flow, loops repeat work
 ## 2. If/Else
 
 ```kotlin
-val score = 72
+val score = Input.readIntOr("Enter score: ", 0)
 if (score >= 70) println("Excellent")
 else if (score >= 50) println("Pass")
 else println("Fail")
@@ -160,7 +160,7 @@ else println("Fail")
 ## 4. When Expression
 
 ```kotlin
-val day = 3
+val day = Input.readIntOr("Enter day (1–7): ", 1)
 when (day) {
     1 -> println("Monday")
     2 -> println("Tuesday")
@@ -194,8 +194,11 @@ println("Blast off!")
 ### Do-While
 
 ```kotlin
-var x = 0
-do { println("Runs once!") } while (x > 0)
+var x = Input.readIntOr("Enter a number (>=0): ", 1)
+do { 
+    println("Runs once!") 
+    x--
+} while (x > 0)
 ```
 
 ---
